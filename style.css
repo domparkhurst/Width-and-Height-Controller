@@ -1,0 +1,85 @@
+html,
+body {
+  font-family: arial;
+  margin: 0;
+}
+
+header {
+  padding: 3rem;
+  color: #fff;
+  background-color: teal;
+}
+
+header h1 {
+  font-size: xx-large;
+}
+
+header p {
+  padding-top: 1em;
+  margin: 0
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: large;
+}
+
+h3 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  font-size: small;
+  margin: 0em;
+}
+
+p {
+  margin: 1em;
+  padding: 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"] {
+  border: 1px solid #ccc;
+  padding: 1em;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 1em;
+}
+
+input[type="submit"] {
+  border: 0;
+  padding: 1em;
+  width: 100%;
+}
+
+.main {
+  margin: 3rem;
+}
+
+.group-result {
+  text-align: center;
+  width: 100%;
+  background-color: #ffaa;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+}
+
+.group-item {
+  padding-top: 1em;
+  margin-top: 1em;
+}
+
+.my-bg {
+  background-color: #333;
+}
